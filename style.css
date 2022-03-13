@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .logo-container {
@@ -40,6 +41,7 @@ body {
 h1 {
     font-family: odin-font, sans-serif;
     font-size: 8em;
+    color: white;
 }
 
 .logo {
@@ -122,6 +124,16 @@ label {
     border: 2px solid #000000;
 }
 
+.credit {
+    position: absolute;
+    bottom: 1%;
+    color: #f3f3f3;
+}
+
+.credit a {
+    color: #f3f3f3; 
+}
+
 @media only screen and (max-width: 1000px) {
     .main {
         flex-flow: column;
@@ -153,4 +165,9 @@ label {
     input {
         width: 90%;
     }
+
+    .credit {
+        top: 20.5%;
+    }
+
 }
